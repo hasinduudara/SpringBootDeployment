@@ -1,7 +1,9 @@
 package lk.ijse.gdse.springbootdeployment.service;
 
 import lk.ijse.gdse.springbootdeployment.entity.Customer;
+import java.util.List;
 
-public interface CustomerServive {
-Customer createCustomer(Customer customer);
+public interface CustomerService {
+    Customer createCustomer(Customer customer);
+    List<Customer> getAllCustomers();
 }
